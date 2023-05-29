@@ -16,6 +16,7 @@ function App() {
       <Route path="/study" element={'Study Abroad Page'} />
       <Route path="/login" element={'Login Page'} />
       <Route path="/signup" element={'Signup Page'} />
+      <Route path="/start" element={'Get Started Page🤗'} />
       <Route path="/more-info" element={'More Informations Page'} />
       <Route path="*" element={'404 - Page Not Found😡😡'} />
       
