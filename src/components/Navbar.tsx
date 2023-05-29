@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs"
 const Nav = () => {
   return (
     <>
-      <Navbar fluid rounded>
+      <Navbar fluid rounded className="shadow-lg">
         <Navbar.Brand className="text-blue-700" href="#">
             <IoSchool className="mr-3 h-6 sm:h-9" />
 
@@ -38,9 +38,6 @@ const Nav = () => {
       </Dropdown.Item>
       <Dropdown.Item>
         Register School
-      </Dropdown.Item>
-      <Dropdown.Item>
-        Study info
       </Dropdown.Item>
       <Dropdown.Divider />
       <Dropdown.Item>
