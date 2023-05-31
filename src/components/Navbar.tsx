@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <>
       <Navbar fluid rounded className="shadow-lg">
-        <Navbar.Brand className="text-blue-700" href="#">
+        <Navbar.Brand className="text-blue-900" href="#">
           <IoSchool className="mr-3 h-6 sm:h-9" />
 
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
