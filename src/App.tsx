@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
+import FooterSection from "./components/Footer"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="*" element={'404 - Page Not Found😡😡'} />
       
     </Routes>
+    <FooterSection />
     </>
   )
 }

@@ -21,21 +21,21 @@ const FooterSection = () => {
           <Footer.Title title="about" />
           <Footer.LinkGroup col>
             <Footer.Link href="#">
-              Flowbite
+              E-APPLY
             </Footer.Link>
             <Footer.Link href="#">
-              Tailwind CSS
+              Scholarship
             </Footer.Link>
           </Footer.LinkGroup>
         </div>
         <div>
           <Footer.Title title="Follow us" />
           <Footer.LinkGroup col>
-            <Footer.Link href="#">
+            <Footer.Link href="github.com/Codinglone">
               Github
             </Footer.Link>
-            <Footer.Link href="#">
-              Discord
+            <Footer.Link href="https://www.linkedin.com/in/fabrice-niyokwizerwa-a8402225a/">
+              LinkedIn
             </Footer.Link>
           </Footer.LinkGroup>
         </div>
@@ -61,23 +61,23 @@ const FooterSection = () => {
       />
       <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
         <Footer.Icon
-          href="#"
+          href="facebook.com"
           icon={FaFacebook}
         />
         <Footer.Icon
-          href="#"
+          href="instagram.com"
           icon={FaInstagram}
         />
         <Footer.Icon
-          href="#"
+          href="github.com/Codinglone"
           icon={FaGithub}
         />
         <Footer.Icon
-          href="#"
+          href="mail.google.com"
           icon={FaGoogle}
         />
         <Footer.Icon
-          href="#"
+          href="twitter.com"
           icon={FaTwitter}
         />
       </div>
