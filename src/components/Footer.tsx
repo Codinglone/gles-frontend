@@ -3,6 +3,7 @@ import { Footer } from 'flowbite-react'
 import { FaFacebook, FaInstagram, FaGithub, FaGoogle, FaTwitter } from "react-icons/fa"
 
 const FooterSection = () => {
+    const year = new Date().getFullYear()
   return (
     <>
         <Footer container>
@@ -55,29 +56,29 @@ const FooterSection = () => {
     <Footer.Divider />
     <div className="w-full sm:flex sm:items-center sm:justify-between">
       <Footer.Copyright
-        by="Flowbite™"
+        by="E-APPLY"
         href="#"
-        year={2022}
+        year={year}
       />
       <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
         <Footer.Icon
-          href="facebook.com"
+          href="https://facebook.com"
           icon={FaFacebook}
         />
         <Footer.Icon
-          href="instagram.com"
+          href="https://instagram.com"
           icon={FaInstagram}
         />
         <Footer.Icon
-          href="github.com/Codinglone"
+          href="https://github.com/Codinglone"
           icon={FaGithub}
         />
         <Footer.Icon
-          href="mail.google.com"
+          href="https://mail.google.com"
           icon={FaGoogle}
         />
         <Footer.Icon
-          href="twitter.com"
+          href="https://twitter.com"
           icon={FaTwitter}
         />
       </div>
