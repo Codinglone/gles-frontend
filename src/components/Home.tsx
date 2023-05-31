@@ -1,7 +1,10 @@
+import Hero from "./Hero"
 
 const Home = () => {
   return (
-    <div>Home Route</div>
+    <>
+      <Hero />
+    </>
   )
 }
 
