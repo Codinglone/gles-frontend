@@ -1,6 +1,10 @@
+import { Tabs } from "flowbite-react"
+
 const Info = () => {
   return (
-    <div>Info</div>
+    <>
+        
+    </>
   )
 }
 
