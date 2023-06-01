@@ -1,6 +1,12 @@
-import { Tabs } from "flowbite-react";
+import { useState } from "react";
 
 const Info = () => {
+  const whyData = "Why Choose us data"
+  const processData = "Admission process"
+  const durationData = "Admission duration"
+
+  const [why, setWhy] = useState<boolean>(true)
+  const [tabData, setTabData] = useState<string>(whyData)
   return (
     <>
       <section className="px-4 flex justify-center w-full">
@@ -17,14 +23,11 @@ const Info = () => {
         </div>
       </section>
 
-      <section className="px-4 flex justify-center w-full">
+     {why &&  <section className="px-4 flex justify-center w-full">
         <div className="flex justify-between shadow-lg my-2 lg:mx-4 lg:w-[50vw] w-full py-2 px-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quaerat
-          incidunt, ea voluptatibus explicabo delectus ut, illo numquam
-          voluptas, a iure inventore eligendi nisi! Cupiditate hic ipsam nobis
-          neque dolore!
+          {tabData}
         </div>
-      </section>
+      </section>}
     </>
   );
 };
