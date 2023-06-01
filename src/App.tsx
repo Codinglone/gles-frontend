@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import FooterSection from "./components/Footer"
+import Info from "./components/Info"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/signup" element={'Signup Page'} />
       <Route path="/start" element={'Get Started Page🤗'} />
       <Route path="/more-info" element={'More Informations Page'} />
+      <Route path="/why" element={<Info />} />
       <Route path="*" element={'404 - Page Not Found😡😡'} />
       
     </Routes>
