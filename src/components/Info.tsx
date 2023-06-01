@@ -3,7 +3,7 @@ import { Tabs } from "flowbite-react"
 const Info = () => {
   return (
     <>
-      <h1>Tabs Section</h1>
+      <section className="px-4 py-12">Tabs Section</section>
     </>
   )
 }
