@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import Home from "./components/Home"
 import FooterSection from "./components/Footer"
 import Info from "./components/Info"
+import Gallery from "./components/Gallery"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={'About Page'} />
       <Route path="/contact" element={'Contact Page'} />
-      <Route path="/gallery" element={'Gallery Page'} />
+      <Route path="/gallery" element={<Gallery />} />
       <Route path="/register-school" element={'Register School Page'} />
       <Route path="/study" element={'Study Abroad Page'} />
       <Route path="/login" element={'Login Page'} />
