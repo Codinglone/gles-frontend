@@ -4,6 +4,7 @@ import FooterSection from "./components/Footer"
 import Info from "./components/Info"
 import Gallery from "./components/Gallery"
 import About from "./components/About"
+import Contact from "./components/Contact"
 import { Route, Routes } from "react-router-dom"
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={'Contact Page'} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/register-school" element={'Register School Page'} />
       <Route path="/study" element={'Study Abroad Page'} />
